@@ -1,4 +1,4 @@
-# [grst @ anaconda](https://anaconda.org/grst)
+# [r-immunedeconv](https://anaconda.org/grst)
 ![travis ci](https://api.travis-ci.org/grst-anaconda/r-immunedeconv.svg?branch=master)
 
 Conda build for [immunedeconv](https://github.com/grst/immune_deconvolution_methods), an
