@@ -30,3 +30,14 @@ Upload the package to anaconda cloud
 anaconda upload <path to compiled package>
 ```
 
+## Update submodule
+If the main `immune_deconvolution_methods` repo has changes, you probably
+want to rebuild the anaconda version of it, too.
+
+* Update submodules
+```
+git submodule update --recursive --remote
+```
+
+* Update version number
+* Commit and push to travis.
