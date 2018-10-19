@@ -5,7 +5,7 @@ package:
   name: r-immunedeconv
   # Note that conda versions cannot contain -, so any -'s in the version have
   # been replaced with _'s.
-  version: "0.1.2"
+  version: "1.0.0"
 
 source:
   path: immune_deconvolution_methods
