@@ -46,9 +46,9 @@ sudo: false
 cache: packages
 
 after_success:
-  # - conda install -c anaconda anaconda-client
-  # - |
-  #   for i in $(find . -maxdepth 1 -mindepth 1 -type d -not -path '*\/.*')
-  #   do
-  #     anaconda upload -t $CONDA_UPLOAD_TOKEN -u grst $(conda build $i --output)
-  #   done
+  - conda install -c anaconda anaconda-client
+  - |
+    for i in $(find . -maxdepth 1 -mindepth 1 -type d -not -path '*\/.*')
+    do
+      anaconda upload -t $CONDA_UPLOAD_TOKEN -u grst $(conda build $i --output)
+    done
