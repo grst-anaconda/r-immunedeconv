@@ -1,11 +1,11 @@
-{% set version = '1.0.0' %}
+{% set version = '1.0.1' %}
 
 package:
   name: r-immunedeconv
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: https://github.com/grst/immunedeconv/archive/v1.0.1.tar.gz
+  url: https://github.com/grst/immunedeconv/archive/v{{ version }}.tar.gz
   sha256: 306d6288cf6cf1ddc6ec3c7449f5941da4951ad529c59c45799e98c1cd6ada53
 
 build:
@@ -37,7 +37,7 @@ requirements:
     - bioconductor-gsva =1.26
     - bioconductor-sva =3.26
     - bioconductor-gseabase =1.40
-    - r-xcell =1.12
+    - r-xcell =1.12_c03d44840
     - r-epic =1.1
     - r-mcpcounter =a79614e
     - r-roxygen2 =6.0.1
@@ -62,7 +62,7 @@ requirements:
     - bioconductor-gsva >=1.26
     - bioconductor-sva >=3.26
     - bioconductor-gseabase >=1.40
-    - r-xcell >=1.12
+    - r-xcell >=1.12_c03d44840
     - r-epic >=1.1
     - r-mcpcounter
     - r-roxygen2 >=6.0.1
