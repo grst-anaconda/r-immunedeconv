@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/grst/immunedeconv/archive/v{{ version }}.tar.gz
-  sha256: 0f202c1b3602ab1cd7f2ce24b7ba3b5679e3663a7d6624db01bee488534c2ee7
+  sha256: 43a6e0efa7419f9d3401999ba75c3bde52d0d46c896f403145bc7bafbe84003c
 
 build:
   number : 0
